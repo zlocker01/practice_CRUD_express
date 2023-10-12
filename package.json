@@ -1,0 +1,24 @@
+{
+  "name": "express_api_rest_crud",
+  "version": "1.0.0",
+  "description": "practica de CRUD con express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "leglocker01"
+  },
+  "author": "Diego Beristain de la Mora",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
